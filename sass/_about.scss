@@ -1,9 +1,11 @@
 .about {
   &_information {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 80px);
+    margin: 80px 0 0;
+    padding: 20px 0;
     display: flex;
     gap: 20px;
-    margin: 80px 0 0;
+    box-sizing: border-box;
     &_name {
       margin: 0;
       color: $color-primary;
@@ -19,7 +21,7 @@
 
   &_socialnetworks {
     padding: 0;
-    margin: 109px 0 0;
+    margin: 3px 0 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -55,6 +57,7 @@
     position: relative;
     img {
       width: 100%;
+      height: 100%;
       border-radius: $radius;
     }
     &::after {
@@ -67,6 +70,54 @@
       background: rgb(255, 240, 163);
       font-size: 30px;
       text-shadow: 1px 1px $color-text;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &_information {
+      max-width: 300px;
+      min-height: auto;
+      margin: 0;
+      flex-direction: column;
+    }
+
+    &_socialnetworks {
+      margin-top: 20px;
+      flex-direction: row;
+    }
+
+    &_image {
+      width: 100%;
+      max-width: 300px;
+      padding-left: 80px;
+      position: relative;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .about {
+    height: calc(100vh);
+    margin: 0;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    &_information {
+      max-width: 500px;
+    }
+    &_image {
+      max-width: 400px;
+      max-height: 500px;
+      object-fit: cover;
     }
   }
 }

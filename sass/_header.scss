@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  padding: 20px 0;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -10,6 +11,8 @@
       padding: 0;
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
       list-style: none;
       a {
         color: $color-text-light;
@@ -22,3 +25,13 @@
   }
 }
 
+@media screen and (min-width: 540px) {
+  .header {
+    &_menu {
+      ul {
+        justify-content: center;
+        gap: 40px
+      }
+    }
+  }
+}
