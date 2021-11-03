@@ -1,6 +1,5 @@
-
 $color-text: #201916;
-$color-text-light: #e7e7e7;
+$color-text-light: #ffffff;
 $color-primary: #bb0e0e;
 $color-youtube: #bb0000;
 $color-twitter: #00acee;
@@ -23,10 +22,10 @@ i {
   color: $color-text;
 }
 
-
 .wrapper {
   width: 100%;
   max-width: 1240px;
+  margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
 }

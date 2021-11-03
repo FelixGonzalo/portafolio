@@ -350,15 +350,38 @@ i {
 .wrapper {
   width: 100%;
   max-width: 1240px;
+  margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
 }
 
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background: #bb0e0e;
+}
+.header_menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.header_menu ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header_menu ul a.active {
+  border-bottom: 2px solid #fff;
+}
+
 .about_information {
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 100px);
   display: flex;
   gap: 20px;
-  margin: 100px 0 0;
+  margin: 80px 0 0;
 }
 .about_information_name {
   margin: 0;

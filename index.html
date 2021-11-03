@@ -12,12 +12,29 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <nav class="header_menu">
+          <ul>
+            <li><a href="#about" class="header_menu_about active">About</a></li>
+            <li>
+              <a href="#proyectos" class="header_menu_proyectos">Proyectos</a>
+            </li>
+            <li>
+              <a href="#hablemos" class="header_menu_hablemos">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main class="wrapper">
       <section id="about" class="about">
         <div class="about_information">
@@ -25,13 +42,16 @@
             <h1 class="about_information_name">Felix Castro</h1>
             <p class="about_information_tag">Frontend Developer</p>
             <p class="about_information_description">
-              Estudiante de último ciclo de Ingeniería de Sistemas e Informática.
-              <br><br>
+              Estudiante de último ciclo de Ingeniería de Sistemas e
+              Informática.
+              <br /><br />
               Apasionado por el desarrollo de software y el uso de tecnologías.
-              <br><br>
-              Creador de contenido en Youtube orientado a la programación y el uso de tecnologías.
-              <br><br>
-              Mi frase favorita... <br> ¡ Lo bueno se comparte !
+              <br /><br />
+              Creador de contenido en Youtube orientado a la programación y el
+              uso de tecnologías.
+              <br /><br />
+              Mi frase favorita... <br />
+              ¡ Lo bueno se comparte !
             </p>
           </div>
           <ul class="about_socialnetworks">
@@ -95,6 +115,13 @@
           <img src="./assets/img/felixcastro.jpg" alt="felix castro" />
         </div>
       </section>
+      <section id="proyectos" class="proyectos">
+        <h2>proyectos</h2>
+      </section>
+      <section id="hablemos" class="hablemos">
+        <h2>hablemos</h2>
+      </section>
     </main>
+    <script src="./js/header.js" type="module"></script>
   </body>
 </html>
