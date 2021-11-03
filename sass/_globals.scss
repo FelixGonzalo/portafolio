@@ -1,0 +1,32 @@
+
+$color-text: #201916;
+$color-text-light: #e7e7e7;
+$color-primary: #bb0e0e;
+$color-youtube: #bb0000;
+$color-twitter: #00acee;
+$color-facebook: #3b5998;
+$color-linkedin: #007bb5;
+$color-github: #171515;
+$color-instagram: #833AB4;
+
+$font-base: 'Rubik', sans-serif;
+
+$radius: 3px;
+
+body {
+  font-family: $font-base;
+  color: $color-text;
+  font-size: 20px;
+}
+
+i {
+  color: $color-text;
+}
+
+
+.wrapper {
+  width: 100%;
+  max-width: 1240px;
+  padding: 20px;
+  box-sizing: border-box;
+}
