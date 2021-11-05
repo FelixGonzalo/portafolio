@@ -1,0 +1,18 @@
+.footer {
+  padding: 80px 20px;
+  text-align: center;
+
+  .about_socialnetworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &_credits {
+    margin: 40px 0 0;
+    line-height: 30px;
+    i {
+      color: $color-primary;
+    }
+  }
+}
