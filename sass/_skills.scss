@@ -1,12 +1,11 @@
 .skills {
-  margin: 80px 0 0;
+  margin: 0;
   padding: 30px 20px;
   background: $color-secondary;
   &_title {
+    color: $color-primary;
     margin: 0;
     margin-bottom: 30px;
-    background: $color-secondary;
-    color: $color-primary;
   }
   &_list {
     width: 100%;
@@ -17,6 +16,7 @@
     grid-template-columns: 1fr 1fr;
     list-style: none;
     color: $color-primary;
+    font-size: 15px;
     li {
       display: flex;
       align-items: center;
@@ -34,26 +34,11 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row-reverse;
-    border-radius: $radius;
-    &_title {
-      margin: 0;
-      height: 100%;
-      border-radius: $radius;
-    }
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .skills {
     padding: 40px;
     &_list {
+      font-size: 20px;
       gap: 40px;
     }
   }
