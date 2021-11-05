@@ -1,0 +1,23 @@
+.typewriter {
+  display: inline-block;
+  position: relative;
+}
+
+.typewriter::after {
+  content: "";
+  border-left: 3px solid $color-text;
+  background: white;
+  right: 0;
+  height: 100%;
+  position: absolute;
+  animation: typewriterEffect 2s infinite alternate steps(20);
+}
+
+@keyframes typewriterEffect {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
