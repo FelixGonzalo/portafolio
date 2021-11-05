@@ -13,6 +13,10 @@ $font-base: 'Rubik', sans-serif;
 
 $radius: 3px;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-base;
   color: $color-text;

@@ -1,35 +1,17 @@
-const sections = [
-  document.getElementById("about"),
-  document.getElementById("projects"),
-  document.getElementById("contact"),
-];
-
-const navItems = {
-  about: document.getElementsByClassName("header_menu_about"),
-  projects: document.getElementsByClassName("header_menu_projects"),
-  contact: document.getElementsByClassName("header_menu_contact"),
-};
-
-const observerOptions = {
-  root: null,
-  rootMargin: "0px",
-  threshold: 0.7,
-};
-
-function observerCallback(entries, observer) {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      const navItem = navItems[entry.target.id];
-      navItem[0].classList.add("active");
-      Object.values(navItems).forEach((item) => {
-        if (item != navItem) {
-          item[0].classList.remove("active");
-        }
-      });
+const sections = document.querySelectorAll(".section_content");
+const navlinks = document.querySelectorAll(".section_link");
+const addCurrentLink = () => {
+  let currentLink;
+  sections.forEach((section) => {
+    if (window.scrollY >= section.offsetTop - 60) {
+      currentLink = section.getAttribute("id");
+    }
+  })
+  navlinks.forEach((link) => {
+    link.classList.remove("active");
+    if (link.classList.contains(currentLink)) {
+      link.classList.add("active");
     }
   });
 }
-
-const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-sections.forEach((sec) => observer.observe(sec));
+window.addEventListener("scroll", addCurrentLink);
