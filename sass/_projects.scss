@@ -1,6 +1,8 @@
 .projects {
   padding: 80px 0;
   &_title {
+    margin: 0;
+    margin-bottom: 40px;
     color: $color-primary;
   }
   &_list {
