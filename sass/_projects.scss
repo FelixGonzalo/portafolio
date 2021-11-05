@@ -94,5 +94,14 @@
     &_image {
       height: 350px;
     }
+    &_links {
+      a {
+        transition: 0.3s;
+      }
+      a:hover {
+        filter: brightness(1.1);
+        transform: scale(1.05);
+      }
+    }
   }
 }
