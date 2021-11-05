@@ -67,7 +67,7 @@
       bottom: 20px;
       left: 0;
       color: red;
-      background: rgb(255, 240, 163);
+      background: $color-secondary;
       font-size: 30px;
       text-shadow: 1px 1px $color-text;
     }
@@ -79,7 +79,7 @@
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     &_information {
       max-width: 300px;
       min-height: auto;

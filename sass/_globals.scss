@@ -1,6 +1,7 @@
 $color-text: #201916;
 $color-text-light: #ffffff;
 $color-primary: #bb0e0e;
+$color-secondary: rgb(255, 240, 163);
 $color-youtube: #bb0000;
 $color-twitter: #00acee;
 $color-facebook: #3b5998;
@@ -24,8 +25,19 @@ i {
 
 .wrapper {
   width: 100%;
-  max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px){
+  .wrapper {
+    max-width: 950px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .wrapper {
+    max-width: 1240px;
+  }
 }

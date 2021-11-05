@@ -1,11 +1,11 @@
 const sections = [
   document.getElementById("about"),
-  document.getElementById("proyectos"),
+  document.getElementById("projects"),
   document.getElementById("hablemos"),
 ];
 const navItems = {
   about: document.getElementsByClassName("header_menu_about"),
-  proyectos: document.getElementsByClassName("header_menu_proyectos"),
+  projects: document.getElementsByClassName("header_menu_proyectos"),
   hablemos: document.getElementsByClassName("header_menu_hablemos"),
 };
 
