@@ -3,7 +3,7 @@ const projects = [
     title: "Mi Portafolio",
     abstract: "Proyecto sencillo y eficaz para presentarme",
     image: {
-      url: "https://picsum.photos/200/300",
+      url: "",
       description: "portafolio de Felix Castro",
     },
     demo: "",
@@ -51,7 +51,7 @@ projects.map((project) => {
       <div class="project_information">
         <img
           class="project_image"
-          src="https://picsum.photos/200/300"
+          src="${project.image.url}"
           alt="${project.image.description}"
         />
         <p class="project_abstract">
