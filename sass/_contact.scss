@@ -1,0 +1,48 @@
+.contact {
+  padding: 80px 0;
+  &_title {
+    color: $color-primary;
+    margin-bottom: 40px;
+  }
+}
+
+.form_contact {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  label {
+    margin-top: 20px;
+    display: block;
+    input, textarea {
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px;
+      display: block;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: none;
+      resize: vertical;
+    }
+  }
+  button {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    display: block;
+    border-radius: $radius;
+    border: none;
+    outline: none;
+    color: $color-text-light;
+    background: $color-primary;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    &_title {
+      margin-bottom: 60px;
+    }
+  }
+}

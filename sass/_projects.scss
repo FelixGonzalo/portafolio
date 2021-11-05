@@ -1,8 +1,7 @@
 .projects {
-  margin-top: 80px;
+  padding: 80px 0;
   &_title {
     color: $color-primary;
-    margin-bottom: 20px;
   }
   &_list {
     display: flex;
@@ -13,6 +12,7 @@
 
 .project {
   &_title {
+    margin: 0 0 20px;
     border-left: 5px solid $color-text;
     padding-left: 5px;
     font-weight: bold;

@@ -1,12 +1,13 @@
 const sections = [
   document.getElementById("about"),
   document.getElementById("projects"),
-  document.getElementById("hablemos"),
+  document.getElementById("contact"),
 ];
+
 const navItems = {
   about: document.getElementsByClassName("header_menu_about"),
-  projects: document.getElementsByClassName("header_menu_proyectos"),
-  hablemos: document.getElementsByClassName("header_menu_hablemos"),
+  projects: document.getElementsByClassName("header_menu_projects"),
+  contact: document.getElementsByClassName("header_menu_contact"),
 };
 
 const observerOptions = {

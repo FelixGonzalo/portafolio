@@ -26,10 +26,10 @@
           <ul>
             <li><a href="#about" class="header_menu_about active">About</a></li>
             <li>
-              <a href="#projects" class="header_menu_proyectos">Proyectos</a>
+              <a href="#projects" class="header_menu_projects">Proyectos</a>
             </li>
             <li>
-              <a href="#hablemos" class="header_menu_hablemos">Hablemos</a>
+              <a href="#contact" class="header_menu_contact">Hablemos</a>
             </li>
           </ul>
         </nav>
@@ -117,11 +117,28 @@
         <div id="projects_list" class="projects_list">
         </div>
       </section>
-      <section id="hablemos" class="hablemos">
-        <h2>hablemos</h2>
+      <section id="contact" class="contact">
+        <h2 class="contact_title">Hablemos</h2>
+        <form id="form_contact" class="form_contact" autocomplete="off">
+          <label>
+            Nombre
+            <input type="text" name="user_name" id="user_name">
+          </label>
+          <label>
+            Correo
+            <input type="email" name="user_email" id="user_email">
+          </label>
+          <label>
+            Mensaje:
+            <textarea name="message" id="message" rows="3"></textarea>
+          </label>
+          <button type="submit">Hablemos</button>
+        </form>
       </section>
     </main>
     <script src="./js/header.js" type="module"></script>
     <script src="./js/projects.js" type="module"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="./js/contact.js" type="module"></script>
   </body>
 </html>
