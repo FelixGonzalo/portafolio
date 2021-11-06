@@ -29,8 +29,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .skills_list {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  .skills {
+    &_title {
+      text-align: center;
+    }
+    &_list {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
   }
 }
 
