@@ -7,7 +7,7 @@ Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada d
 ## Acerca del proyecto 🧐
 Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.
 
-![Img overview project](./assets/img/miportafolio.png)
+![Img overview project](./assets/img/miportafolio.PNG)
 
 ## Tecnologías 🛠
 

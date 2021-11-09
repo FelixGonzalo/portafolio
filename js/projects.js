@@ -4,7 +4,7 @@ const projects = [
     abstract:
       "Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.",
     image: {
-      url: "./assets/img/miportafolio.png",
+      url: "./assets/img/miportafolio.PNG",
       description: "portafolio de Felix Castro",
     },
     demo: "https://felixgonzalo.github.io/portafolio/",
@@ -15,7 +15,7 @@ const projects = [
     abstract:
       "Taller ¿Qué es una API? ejemplo práctico con JavaScript gracias a GDG Chimbote.",
     image: {
-      url: "./assets/img/dogapi.png",
+      url: "./assets/img/dogapi.PNG",
       description: "Taller ¿Qué es una API? ejemplo práctico con JavaScript",
     },
     demo: "https://felixgonzalo.github.io/Taller_API_GDG_Chimbote/",
@@ -25,7 +25,7 @@ const projects = [
     title: "Lista de tareas",
     abstract: "Sistema para gestionar tareas individuales.",
     image: {
-      url: "./assets/img/listatareas.png",
+      url: "./assets/img/listatareas.PNG",
       description: "Lista de tareas",
     },
     demo: "https://first-react-3da9c.web.app/login",
@@ -35,7 +35,7 @@ const projects = [
     title: "Platzi Games",
     abstract: "Proyecto de maquetación CSS con Sass.",
     image: {
-      url: "./assets/img/platzigames.png",
+      url: "./assets/img/platzigames.PNG",
       description: "sistema menu express",
     },
     demo: "https://felixgonzalo.github.io/platzi_games/",
