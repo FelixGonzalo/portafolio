@@ -114,6 +114,7 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    position: relative;
     &_information {
       max-width: 500px;
     }
@@ -121,6 +122,26 @@
       max-width: 400px;
       max-height: 500px;
       object-fit: cover;
+      img {
+        box-shadow: -2px 2px 1000px rgb(243, 192, 192);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .about {
+    &::after {
+      content: "<";
+      width: 100px;
+      height: 100px;
+      display: block;
+      position: absolute;
+      color: $color-primary;
+      transform: rotate(-90deg);
+      font-size: 100px;
+      left: 45%;
+      bottom: 40px;
     }
   }
 }

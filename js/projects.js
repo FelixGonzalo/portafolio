@@ -1,43 +1,45 @@
 const projects = [
   {
     title: "Mi Portafolio",
-    abstract: "Proyecto sencillo y eficaz para presentarme",
+    abstract:
+      "Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.",
     image: {
-      url: "",
+      url: "../assets/img/miportafolio.png",
       description: "portafolio de Felix Castro",
     },
-    demo: "",
+    demo: "https://felixgonzalo.github.io/portafolio/",
     code: "https://github.com/FelixGonzalo/portafolio",
   },
   {
-    title: "Menu express",
-    abstract: "Sistema para administrar la carta de un menu.",
+    title: "Mi primer taller virtual",
+    abstract:
+      "Taller ¿Qué es una API? ejemplo práctico con JavaScript gracias a GDG Chimbote.",
     image: {
-      url: "https://picsum.photos/200/300",
-      description: "sistema menu express",
+      url: "../assets/img/dogapi.png",
+      description: "Taller ¿Qué es una API? ejemplo práctico con JavaScript",
     },
-    demo: "https://felixgonzalo.github.io/menu_delivery/",
-    code: "https://github.com/FelixGonzalo/menu_delivery",
+    demo: "https://felixgonzalo.github.io/Taller_API_GDG_Chimbote/",
+    code: "https://github.com/FelixGonzalo/Taller_API_GDG_Chimbote",
   },
   {
-    title: "Mi Portafolio",
-    abstract: "Proyecto sencillo y eficaz para presentarme",
+    title: "Lista de tareas",
+    abstract: "Sistema para gestionar tareas individuales.",
     image: {
-      url: "https://picsum.photos/200/300",
-      description: "portafolio de Felix Castro",
+      url: "../assets/img/listatareas.png",
+      description: "Lista de tareas",
     },
-    demo: "",
-    code: "https://github.com/FelixGonzalo/portafolio",
+    demo: "https://first-react-3da9c.web.app/login",
+    code: "https://github.com/FelixGonzalo/ListaTareas-React-Firebase",
   },
   {
-    title: "Menu express",
-    abstract: "Sistema para administrar la carta de un menu.",
+    title: "Platzi Games",
+    abstract: "Proyecto de maquetación CSS con Sass.",
     image: {
-      url: "https://picsum.photos/200/300",
+      url: "../assets/img/platzigames.png",
       description: "sistema menu express",
     },
-    demo: "https://felixgonzalo.github.io/menu_delivery/",
-    code: "https://github.com/FelixGonzalo/menu_delivery",
+    demo: "https://felixgonzalo.github.io/platzi_games/",
+    code: "https://github.com/FelixGonzalo/platzi_games",
   },
 ];
 
