@@ -1,40 +1,28 @@
-# Lista de tareas
-Sistema para gestionar tareas individuales.
+# Mi Portafolio
+Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.
 
 ## Demo✨
-[Mirar demo](https://first-react-3da9c.web.app/login)
+[Mirar demo](https://felixgonzalo.github.io/portafolio/)
 
 ## Acerca del proyecto 🧐
-Es un proyecto que realicé cuando estaba probando Firebase por primera vez. I love Firebase !! 😁
+Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.
 
-Puedes registrarte con tu correo y contraseña y acceder a las opciones de crear, editar, eliminar y listar tareas.
-
-![Img overview project](listaTareas.gif)
+![Img overview project](./assets/img/miportafolio.png)
 
 ## Tecnologías 🛠
 
-- HTML, CSS, JavaScript
-- React
-- Firebase
-- Bootstrap
+- HTML
+- CSS
+- Sass
+- JavaScript
 
 ## Instalar proyecto 👀
 Clonar el proyecto
 ```
-  git clone https://github.com/FelixGonzalo/ListaTareas-React-Firebase.git
+  git clone https://github.com/FelixGonzalo/portafolio
 ```
-Instalar las dependencias
-```
-  npm install
-```
-Completar el firebaseConfig en el archivo firebase.js
+Ejecutar el archivo index.html con su navegador web favorito
 
-[firebase.js ](https://github.com/FelixGonzalo/ListaTareas-React-Firebase/blob/master/src/firebase.js)
-
-Ejecutar el proyecto
-```
-  npm run start
-```
 
 ## Mis redes sociales 😄
 * [Youtube](https://www.youtube.com/c/FelixCastro003).
