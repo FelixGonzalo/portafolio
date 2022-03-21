@@ -8,7 +8,7 @@ form_contact.addEventListener('submit', (e) => {
   const from_name = e.target.user_name.value;
   const message = e.target.message.value;
   const reply_to = e.target.user_email.value;
-  const messageRestriction = 50
+  const messageRestriction = 10
 
   if (!from_name.trim() || !message.trim() || !reply_to.trim()) {
     alert("Es necesario que complete todos los datos")
