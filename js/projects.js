@@ -1,19 +1,18 @@
 const projects = [
   {
-    title: 'Mi Portafolio',
-    abstract:
-      'Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.',
+    title: 'Sitio Web de Albattria',
+    abstract: 'Sitio Web de Albattria realizado con PUG, Sass y JavaScript.',
     image: {
-      url: './assets/img/miportafolio.PNG',
-      description: 'portafolio de Felix Castro',
+      url: './assets/img/albattria.PNG',
+      description: 'sitrio web de Albattria',
     },
-    demo: 'https://felixgonzalo.github.io/portafolio/',
-    code: 'https://github.com/FelixGonzalo/portafolio',
+    demo: 'https://albattria.com/',
+    code: '',
   },
   {
     title: 'Where In The World',
     abstract:
-      'REST Countries API with Color Theme Switcher is a Frontend Mentor Challenge',
+      'Frontend Mentor Challenge. Proyecto con React, Sass, webpack, REST Countries.',
     image: {
       url: './assets/img/whereintheworld.PNG',
       description: 'Frontend Mentor Challenge',
@@ -23,7 +22,8 @@ const projects = [
   },
   {
     title: 'Lista de tareas',
-    abstract: 'Sistema para gestionar tareas individuales.',
+    abstract:
+      'Sistema para gestionar tareas individuales. Proyecto con React, CSS, Firebase, Bootstrap.',
     image: {
       url: './assets/img/listatareas.PNG',
       description: 'Lista de tareas',
@@ -51,6 +51,17 @@ const projects = [
     },
     demo: 'https://www.facebook.com/gdgchimbote/videos/1481509778889481',
     code: 'https://github.com/FelixGonzalo/Taller_API_GDG_Chimbote',
+  },
+  {
+    title: 'Mi Portafolio',
+    abstract:
+      'Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.',
+    image: {
+      url: './assets/img/miportafolio.PNG',
+      description: 'portafolio de Felix Castro',
+    },
+    demo: 'https://felixgonzalo.github.io/portafolio/',
+    code: 'https://github.com/FelixGonzalo/portafolio',
   },
 ]
 
@@ -80,11 +91,13 @@ projects.map((project) => {
             `
               : ""
           }
-          <a class="project_links_code" href="${
-            project.code
-          }" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-github"></i>
-          </a>
+          ${
+            project.code !== ""
+            ? `<a class="project_links_code" href="${project.code}" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i>
+            </a>`
+            : ''
+          }
         </div>
       </div>
     </div>
