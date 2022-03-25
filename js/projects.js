@@ -86,7 +86,7 @@ projects.map((project) => {
             project.demo !== ""
               ? `
               <a class="project_links_demo" href="${project.demo}" target="_blank" rel="noopener noreferrer">
-                Demo disponible
+                Ver resultado
               </a>
             `
               : ""
