@@ -1,69 +1,80 @@
 const projects = [
   {
-    title: 'Sitio Web de Albattria',
-    abstract: 'Sitio Web de Albattria realizado con PUG, Sass y JavaScript.',
+    title: "Sitio Web de Albattria",
+    abstract: "Sitio Web de Albattria realizado con PUG, Sass y JavaScript.",
     image: {
-      url: './assets/img/albattria.PNG',
-      description: 'sitrio web de Albattria',
+      url: "./assets/img/albattria.PNG",
+      description: "sitrio web de Albattria",
     },
-    demo: 'https://albattria.com/',
-    code: '',
+    demo: "https://albattria.com/",
+    code: "",
   },
   {
-    title: 'Where In The World',
+    title: "Where In The World",
     abstract:
-      'Frontend Mentor Challenge. Proyecto con React, Sass, webpack, REST Countries.',
+      "Frontend Mentor Challenge. Proyecto con React, Sass, webpack, REST Countries.",
     image: {
-      url: './assets/img/whereintheworld.PNG',
-      description: 'Frontend Mentor Challenge',
+      url: "./assets/img/whereintheworld.PNG",
+      description: "Frontend Mentor Challenge",
     },
-    demo: 'https://quirky-yonath-fc759e.netlify.app/',
-    code: 'https://github.com/FelixGonzalo/WhereInTheWorld',
+    demo: "https://quirky-yonath-fc759e.netlify.app/",
+    code: "https://github.com/FelixGonzalo/WhereInTheWorld",
   },
   {
-    title: 'Lista de tareas',
+    title: "Chat anónimo",
     abstract:
-      'Sistema para gestionar tareas individuales. Proyecto con React, CSS, Firebase, Bootstrap.',
+      "Chat donde cada usuario sea uno nuevo por cada pestaña y pueda escribir a otros usuarios en privado o en chats grupales por categoría. Proyecto con React, Typescript, Styled components, Redux.",
     image: {
-      url: './assets/img/listatareas.PNG',
-      description: 'Lista de tareas',
+      url: "./assets/img/chatv1.png",
+      description: "Chat anónimo",
     },
-    demo: 'https://first-react-3da9c.web.app/login',
-    code: 'https://github.com/FelixGonzalo/ListaTareas-React-Firebase',
+    demo: "https://felixgonzalo.github.io/chat-anonimo/",
+    code: "https://github.com/FelixGonzalo/chat-anonimo",
   },
   {
-    title: 'Platzi Games',
-    abstract: 'Proyecto de maquetación CSS con Sass.',
-    image: {
-      url: './assets/img/platzigames.PNG',
-      description: 'sistema menu express',
-    },
-    demo: 'https://felixgonzalo.github.io/platzi_games/',
-    code: 'https://github.com/FelixGonzalo/platzi_games',
-  },
-  {
-    title: 'Mi primer taller virtual',
+    title: "Lista de tareas",
     abstract:
-      'Taller ¿Qué es una API? ejemplo práctico con JavaScript gracias a GDG Chimbote.',
+      "Sistema para gestionar tareas individuales. Proyecto con React, CSS, Firebase, Bootstrap.",
     image: {
-      url: './assets/img/dogapi.PNG',
-      description: 'Taller ¿Qué es una API? ejemplo práctico con JavaScript',
+      url: "./assets/img/listatareas.PNG",
+      description: "Lista de tareas",
     },
-    demo: 'https://www.facebook.com/gdgchimbote/videos/1481509778889481',
-    code: 'https://github.com/FelixGonzalo/Taller_API_GDG_Chimbote',
+    demo: "https://first-react-3da9c.web.app/login",
+    code: "https://github.com/FelixGonzalo/ListaTareas-React-Firebase",
   },
   {
-    title: 'Mi Portafolio',
-    abstract:
-      'Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.',
+    title: "Platzi Games",
+    abstract: "Proyecto de maquetación CSS con Sass.",
     image: {
-      url: './assets/img/miportafolio.PNG',
-      description: 'portafolio de Felix Castro',
+      url: "./assets/img/platzigames.PNG",
+      description: "sistema menu express",
     },
-    demo: 'https://felixgonzalo.github.io/portafolio/',
-    code: 'https://github.com/FelixGonzalo/portafolio',
+    demo: "https://felixgonzalo.github.io/platzi_games/",
+    code: "https://github.com/FelixGonzalo/platzi_games",
   },
-]
+  {
+    title: "Mi primer taller virtual",
+    abstract:
+      "Taller ¿Qué es una API? ejemplo práctico con JavaScript gracias a GDG Chimbote.",
+    image: {
+      url: "./assets/img/dogapi.PNG",
+      description: "Taller ¿Qué es una API? ejemplo práctico con JavaScript",
+    },
+    demo: "https://www.facebook.com/gdgchimbote/videos/1481509778889481",
+    code: "https://github.com/FelixGonzalo/Taller_API_GDG_Chimbote",
+  },
+  // {
+  //   title: 'Mi Portafolio',
+  //   abstract:
+  //     'Proyecto para presentarme y mostrarte mis habilidades que estoy mejorando cada día.',
+  //   image: {
+  //     url: './assets/img/miportafolio.PNG',
+  //     description: 'portafolio de Felix Castro',
+  //   },
+  //   demo: 'https://felixgonzalo.github.io/portafolio/',
+  //   code: 'https://github.com/FelixGonzalo/portafolio',
+  // },
+];
 
 const projects_list = document.getElementById("projects_list");
 
@@ -93,10 +104,10 @@ projects.map((project) => {
           }
           ${
             project.code !== ""
-            ? `<a class="project_links_code" href="${project.code}" target="_blank" rel="noopener noreferrer">
+              ? `<a class="project_links_code" href="${project.code}" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-github"></i>
             </a>`
-            : ''
+              : ""
           }
         </div>
       </div>
